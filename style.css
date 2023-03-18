@@ -14,13 +14,15 @@
 
 body {
     background: linear-gradient(180deg, #424750 0%, #202326 100%);
-    border-radius: 60px;
     font-family: 'Lato', sans-serif;
+   
+    
 }
 
 header {
     display: flex;
-    justify-content: end; 
+    justify-content: center;
+    justify-content: end;
     
 }
 
@@ -28,20 +30,19 @@ header button {
 
     border: none;
     background: none;
+    
+    
  
 }
 
 main {
     margin-top: 6.1rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
 }
 
 main p {
     font-weight: 400;
-    font-size: 2.4rem;
+    font-size: clamp(1.75rem, 3vw, 2.1rem);
     line-height: 2.9rem;
     text-align: center;
 
@@ -51,8 +52,8 @@ main p {
 main h1 {
     font-style: normal;
     font-weight: 900;
-    font-size: 5.0rem;
-    line-height: 6.0rem;
+    font-size: 4rem;
+    line-height: 4.0rem;
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -64,26 +65,35 @@ main h1 {
     margin-bottom: 7.5rem;
 }
 
-
+main .car {
+    display: flex;
+    justify-content: end;
+}
 main .car img + img{
-    margin-left: 5rem;
-    margin-top: 6rem;
-    padding-bottom:  7rem;
+    padding-top: 5rem;
+    width: 375px;
+ 
 }
 
 #number {
- position: absolute;
- z-index: -1;
- right: 5rem;
+    position: absolute;
+    z-index: -1;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
  
 }
 
 .rodape #on {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 2rem;
+    line-height: 2rem;
     text-align: center;
+
+    margin-top: 5rem;
 
     color: #7F8489;
 }
@@ -91,7 +101,11 @@ main .car img + img{
 .rodape button {
     border: none;
     background: none;
+    margin-top: -2rem;
     
+}
+.rodape img {
+    width: 190px;
 }
 
 .rodape {
