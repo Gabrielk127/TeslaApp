@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background: linear-gradient(180deg, #424750 0%, #202326 100%);
+    border-radius: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: end; 
+    
+}
+
+header button {
+
+    border: none;
+    background: none;
+ 
+}
+
+main {
+    margin-top: 6.1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+
+    color: #7F8489;
+}
+
+main h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.0rem;
+    line-height: 6.0rem;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FDFDFD;
+
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+
+    margin-bottom: 7.5rem;
+}
+
+
+main .car img + img{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    padding-bottom:  7rem;
+}
+
+#number {
+ position: absolute;
+ z-index: -1;
+ right: 5rem;
+ 
+}
+
+.rodape #on {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #7F8489;
+}
+
+.rodape button {
+    border: none;
+    background: none;
+    
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 3.2rem;
+}
+
+.screen2 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen2 header p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #7F8489;
+}
+
+.screen2 header p + p {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FDFDFD;
+
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+
+.screen2 #car {
+    margin-top: 7rem;
+    margin-bottom: 4.8rem;
+}
+
+.screen2 .status p{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+    
+    margin-bottom: 2.4rem;
+    text-align: start;
+   
+}
+
+.screen2 ul {
+    display: flex;
+    gap: 4rem;
+}
+.screen2 li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #7F8489;
+    
+}
+
+.screen2 #battery {
+    list-style: none;
+    list-style-image: url('./main screen/battery.svg');
+}
+
+.screen2 #range {
+    list-style: none;
+    list-style-image: url('./main screen/range.svg');
+}
+
+.screen2 #temperture {
+    list-style: none;
+    list-style-image: url('./main screen/temperature.svg');
+}
+
+
+.screen2 #info li{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+
+    list-style: none;
+    color: #FFFFFF;
+
+    margin-top: 1rem;
+}
+
+.screen2 #info {
+    
+    gap: 6rem;
+    
+}
+
+.screen2 .information p {
+    margin-top: 5.2rem;
+    text-align: start;
+    margin-left: 4.3rem;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.screen2 .information button{
+    background: none;
+    border: none;
+}
+.screen2 .information button:hover {
+    scale: 1.1;
+}
+
+.nav {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+.nav p {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.nav p + p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}

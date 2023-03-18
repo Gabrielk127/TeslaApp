@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <title>Tesla App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen1">
+        <header>
+            <button>
+                <img src="./welcome screen/config.svg" alt="config">
+            </button>
+        </header>
+
+        <main>
+            <p>
+                Tesla
+            </p>
+
+            <h1>
+                Cybertruck
+            </h1>
+
+            <div class="car">
+                <img id="number" src="./welcome screen/297.svg" alt="">
+                
+
+                <img src="./welcome screen/main car.png" alt="">
+            </div>
+        </main>
+
+        <div class="rodape">
+            <p id="on">A/C is turned On</p>
+
+            <button id="btnOpen">
+                <img src="/welcome screen/private.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+    <div class="screen2 hide">
+
+        <header>
+            <img src="./main screen/Menu.svg" alt="menu">
+            <div class="title">
+                <p>Tesla</p>
+                <p>Cybertruck</p>
+            </div>
+            <img src="./main screen/Profile.svg" alt="Profile">
+
+        </header>
+
+        <main>
+            <img id="car" src="./main screen/Car.png" alt="">
+            <div class="status">
+                <p>Status</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li id="battery">Battery</li>
+                    <li id="range">Range</li>
+                    <li id="temperture">Temperture</li>
+                </ul>
+                <ul id="info">
+                    <li>54%</li>
+                    <li>297km</li>
+                    <li>27C</li>
+                </ul>
+            </div>
+
+            <div class="information">
+                <p>Information</p>
+                <button><img src="./main screen/engine.png" alt="engine"></button>
+                <button><img src="./main screen/climate.png" alt="climate"></button>
+            </div>
+
+            <div class="nav">
+                <p>Navigation</p>
+                <p>History</p>
+            </div>
+                <img id="btnOff" src="./main screen/navigation.png" alt="">
+            
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
